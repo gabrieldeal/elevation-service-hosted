@@ -1,0 +1,32 @@
+{
+  "name": "elevation-service-heroku",
+  "version": "1.0.0",
+  "description": "Wrapper for running elevation-service on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmdeal/elevation-service-heroku.git"
+  },
+  "keywords": [
+    "GeoJson",
+    "elevation",
+    "Heroku"
+  ],
+  "author": "Gabriel M. Deal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmdeal/elevation-service-heroku/issues"
+  },
+  "homepage": "https://github.com/gabrielmdeal/elevation-service-heroku#readme",
+  "dependencies": {
+    "elevation-service": "^2.0.2"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "prettier": "^1.14.2"
+  }
+}

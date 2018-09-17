@@ -4,7 +4,7 @@
   "description": "Wrapper for running elevation-service on Heroku",
   "main": "index.js",
   "scripts": {
-    "dev": "micro-dev",
+    "dev": "micro-dev --host 0.0.0.0 --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

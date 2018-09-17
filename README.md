@@ -10,4 +10,4 @@ Apps on Heroku get an [ephemeral filesystem](https://devcenter.heroku.com/articl
 
 1. https://devcenter.heroku.com/articles/getting-started-with-nodejs
 1. `heroku config:set MAX_POST_SIZE=5mb`
-1. `heroku config:set ACCESS_CONTROL_ALLOW_ORIGIN='*'`
+

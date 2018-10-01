@@ -1,0 +1,5 @@
+{
+  "env": {
+    "MAX_POST_SIZE": "5mb"
+  }
+}

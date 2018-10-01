@@ -1,27 +1,29 @@
 {
-  "name": "elevation-service-heroku",
+  "name": "elevation-service-hosted",
   "version": "1.0.0",
-  "description": "Wrapper for running elevation-service on Heroku",
+  "description": "Wrapper for running elevation-service on Heroku & Zeit Now",
   "main": "index.js",
   "scripts": {
     "dev": "micro-dev --host 0.0.0.0 --port 8080",
+    "start": "mkdir -p data && micro --listen tcp://0.0.0.0:443 # This is used by Zeit Now",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielmdeal/elevation-service-heroku.git"
+    "url": "git+https://github.com/gabrielmdeal/elevation-service-hosted.git"
   },
   "keywords": [
     "GeoJson",
     "elevation",
-    "Heroku"
+    "Heroku",
+    "Zeit Now"
   ],
   "author": "Gabriel M. Deal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gabrielmdeal/elevation-service-heroku/issues"
+    "url": "https://github.com/gabrielmdeal/elevation-service-hosted/issues"
   },
-  "homepage": "https://github.com/gabrielmdeal/elevation-service-heroku#readme",
+  "homepage": "https://github.com/gabrielmdeal/elevation-service-hosted#readme",
   "dependencies": {
     "elevation-service": "^2.0.2",
     "micro-cors": "^0.1.0"

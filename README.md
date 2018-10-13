@@ -1,6 +1,6 @@
 # elevation-service-hosted
 
-A Heroku & Zeit Now wrapper around [elevation-service](https://github.com/perliedman/elevation-service).
+A Docker, Heroku & Zeit Now wrapper around [elevation-service](https://github.com/perliedman/elevation-service).
 
 # Issues
 
@@ -9,6 +9,11 @@ Apps on Heroku get an [ephemeral filesystem](https://devcenter.heroku.com/articl
 Heroku times out requests after 30 seconds, which can happen for large route files
 
 # Installation
+
+## Docker droplet on DigitalOcean
+
+1. `docker run -d --restart always -p 80:8080 gggabrielx/elevation-service-hosted`
+1. `sudo ufw allow http`
 
 ## Heroku
 

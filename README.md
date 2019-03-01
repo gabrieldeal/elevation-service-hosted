@@ -1,6 +1,6 @@
 # elevation-service-hosted
 
-A Docker, Heroku & Zeit Now wrapper around [elevation-service](https://github.com/perliedman/elevation-service).
+A Docker, Heroku & Zeit Now wrapper around [elevation-service](https://github.com/perliedman/elevation-service) with CORS and health check support.
 
 # Issues
 
@@ -10,10 +10,12 @@ Heroku times out requests after 30 seconds, which can happen for large route fil
 
 # Installation
 
-## Docker droplet on DigitalOcean
+## Docker
+
+https://hub.docker.com/r/gggabrielx/elevation-service-hosted
 
 1. `docker run -d --restart always -p 80:8080 gggabrielx/elevation-service-hosted`
-1. `sudo ufw allow http`
+1. `sudo ufw allow http` (needed on DigitalOcean)
 
 ## Heroku
 

@@ -26,7 +26,8 @@
   "homepage": "https://github.com/gabrielmdeal/elevation-service-hosted#readme",
   "dependencies": {
     "elevation-service": "^2.0.2",
-    "micro-cors": "^0.1.0"
+    "micro-cors": "^0.1.0",
+    "micro-health": "^2.0.0"
   },
   "devDependencies": {
     "micro-dev": "^3.0.0",
